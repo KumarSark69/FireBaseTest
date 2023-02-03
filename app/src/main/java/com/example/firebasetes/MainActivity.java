@@ -23,11 +23,6 @@ public class MainActivity extends AppCompatActivity {
         btn=(Button) findViewById(R.id.button);
         txt=(TextView) findViewById(R.id.textView2);
         editText=(EditText) findViewById(R.id.editTextTextPersonName);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Hello "+editText.getText().toString(),Toast.LENGTH_SHORT).show();
-            }
-        });
+        btn.setOnClickListener(view -> Toast.makeText(getApplicationContext(),"Hello "+editText.getText().toString(),Toast.LENGTH_SHORT).show());
     }
 }
