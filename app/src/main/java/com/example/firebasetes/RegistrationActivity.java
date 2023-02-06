@@ -44,13 +44,13 @@ public class RegistrationActivity extends AppCompatActivity {
         mAuth=FirebaseAuth.getInstance();
 
 
-//        loginTV.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i=new Intent(RegistrationActivity.this,LogInActivity.class);
-//                startActivity(i);
-//            }
-//        });
+        loginTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(RegistrationActivity.this,LogInActivity.class);
+                startActivity(i);
+            }
+        });
 
 
         registerBtn.setOnClickListener(new View.OnClickListener() {

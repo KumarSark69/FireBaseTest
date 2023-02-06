@@ -76,21 +76,30 @@
             android:background="@drawable/costom_button_back"
             android:textAllCaps="false"
             android:id="@+id/idBtnLogin"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="New User ? Register Here "
-            android:textColor="@color/white"
-            android:textAllCaps="false"
-            android:textAlignment="center"
-            android:clickable="true"
-            android:onClick="hello"
-            android:gravity="center"
-            android:layout_below="@id/idBtnLogin"
-            android:layout_marginTop="30dp"
-            android:textSize="18sp"
-            android:id="@+id/idTVRegister"
-            />
+
+    <TextView
+        android:id="@+id/idTVRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnLogin"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="New User? Register Here "
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me"
+        android:id="@+id/test"
+        android:layout_below="@id/idTVRegister"
+
+
+        />
         <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

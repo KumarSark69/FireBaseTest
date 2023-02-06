@@ -95,21 +95,21 @@
         android:background="@drawable/costom_button_back"
         android:textAllCaps="false"
         android:id="@+id/idBtnRegister"/>
+
     <TextView
+        android:id="@+id/idTVLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Already a User ? Login Here "
-        android:textColor="@color/white"
-        android:textAllCaps="false"
-        android:textAlignment="center"
-        android:clickable="true"
-        android:onClick="hi"
-        android:gravity="center"
         android:layout_below="@id/idBtnRegister"
         android:layout_marginTop="30dp"
-        android:textSize="18sp"
-        android:id="@+id/idTVLogin"
-        />
+        android:clickable="true"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="Already a User ? Login Here "
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
     <ProgressBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

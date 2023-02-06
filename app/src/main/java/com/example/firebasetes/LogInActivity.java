@@ -23,7 +23,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class LogInActivity extends AppCompatActivity {
 
     private TextInputEditText userNameEdt,passwordEdt;
-    private Button loginBtn;
+    private Button loginBtn,test;
     private ProgressBar loadingPB;
     private TextView registerTV;
     private FirebaseAuth firebaseAuth;
@@ -39,15 +39,16 @@ public class LogInActivity extends AppCompatActivity {
         loadingPB=findViewById(R.id.idPBLoading);
         loginBtn=findViewById(R.id.idBtnLogin);
         registerTV=findViewById(R.id.idTVLogin);
+        test=findViewById(R.id.test);
         firebaseAuth=FirebaseAuth.getInstance();
 
-//        registerTV.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i=new Intent(LogInActivity.this,RegistrationActivity.class);
-//                startActivity(i);
-//            }
-//        });
+        test.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(LogInActivity.this,RegistrationActivity.class);
+                startActivity(i);
+            }
+        });
 
 
 
