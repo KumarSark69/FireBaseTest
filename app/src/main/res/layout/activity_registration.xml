@@ -102,6 +102,8 @@
         android:textColor="@color/white"
         android:textAllCaps="false"
         android:textAlignment="center"
+        android:clickable="true"
+        android:onClick="hi"
         android:gravity="center"
         android:layout_below="@id/idBtnRegister"
         android:layout_marginTop="30dp"

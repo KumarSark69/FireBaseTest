@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "338365799711",
-    "project_id": "fir-tes-b94f2",
-    "storage_bucket": "fir-tes-b94f2.appspot.com"
+    "project_number": "389045352365",
+    "project_id": "fir-test-2fdf7",
+    "storage_bucket": "fir-test-2fdf7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:338365799711:android:93a6684acfff524a34642a",
+        "mobilesdk_app_id": "1:389045352365:android:ebea95a1336f261b735324",
         "android_client_info": {
           "package_name": "com.example.firebasetes"
         }
       },
       "oauth_client": [
         {
-          "client_id": "338365799711-fqbmo37qaib4d5ghr447od5psk8iu484.apps.googleusercontent.com",
+          "client_id": "389045352365-jej8ito50hdjjfv7ksh73eg3os5skv0r.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDRgw6sB4giUxG4_u2LKdbEJ_vjs57em6Y"
+          "current_key": "AIzaSyBu6E4ZcaydzWf3vdJKZXBx0eAunUKGHcE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "338365799711-fqbmo37qaib4d5ghr447od5psk8iu484.apps.googleusercontent.com",
+              "client_id": "389045352365-jej8ito50hdjjfv7ksh73eg3os5skv0r.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
